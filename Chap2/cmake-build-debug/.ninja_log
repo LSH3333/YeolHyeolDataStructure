@@ -1,0 +1,9 @@
+# ninja log v5
+0	68	1649054778092572990	CMakeFiles/Chap2.dir/Hanoi.cpp.o	2a050acc4029ad6d
+0	68	1649054778093173212	CMakeFiles/Chap2.dir/RecursiveBinarySearch.cpp.o	35014e5e4fac95ef
+0	41	1649054778065829514	CMakeFiles/Chap2.dir/main.cpp.o	f6009ce20bae01f0
+0	40	1649054820239979058	build.ninja	1dc9a331e5ca23a7
+0	22	1649054820266484819	CMakeFiles/Chap2.dir/RecursiveBinarySearch.cpp.o	35014e5e4fac95ef
+22	51	1649054820295680478	Chap2	799f376f2b31f37e
+0	25	1649054844006748490	CMakeFiles/Chap2.dir/Hanoi.cpp.o	2a050acc4029ad6d
+25	55	1649054844037745651	Chap2	799f376f2b31f37e

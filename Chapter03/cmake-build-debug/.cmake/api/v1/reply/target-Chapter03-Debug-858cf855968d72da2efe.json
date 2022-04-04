@@ -2,7 +2,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "Chap2"
+			"path" : "Chapter03"
 		}
 	],
 	"backtrace" : 1,
@@ -52,12 +52,11 @@
 			},
 			"sourceIndexes" : 
 			[
-				0,
-				1
+				0
 			]
 		}
 	],
-	"id" : "Chap2::@6890427a1f51a3e7e1df",
+	"id" : "Chapter03::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -73,8 +72,8 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "Chap2",
-	"nameOnDisk" : "Chap2",
+	"name" : "Chapter03",
+	"nameOnDisk" : "Chapter03",
 	"paths" : 
 	{
 		"build" : ".",
@@ -86,8 +85,7 @@
 			"name" : "Source Files",
 			"sourceIndexes" : 
 			[
-				0,
-				1
+				0
 			]
 		}
 	],
@@ -97,12 +95,6 @@
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
 			"path" : "main.cpp",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 1,
-			"compileGroupIndex" : 0,
-			"path" : "RecursiveBinarySearch.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],

@@ -12,10 +12,10 @@ int BinarySearchRecur(int ar[], int first, int last, int target)
         return BinarySearchRecur(ar, mid+1, last, target);
 }
 
-int main()
-{
-    int arr[] = {1, 3, 5, 7, 9};
-    int idx;
-    idx = BinarySearchRecur(arr, 0, sizeof(arr)/sizeof(int)-1, 7);
-
-}
+//int main()
+//{
+//    int arr[] = {1, 3, 5, 7, 9};
+//    int idx;
+//    idx = BinarySearchRecur(arr, 0, sizeof(arr)/sizeof(int)-1, 7);
+//
+//}
