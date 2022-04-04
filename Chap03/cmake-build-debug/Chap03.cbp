@@ -82,6 +82,24 @@
 		<Unit filename="D:/Works/YeolHyeolDataStructure/Chap03/ArrayList.h">
 			<Option target="Chap03"/>
 		</Unit>
+		<Unit filename="D:/Works/YeolHyeolDataStructure/Chap03/NameCard.c">
+			<Option target="Chap03"/>
+		</Unit>
+		<Unit filename="D:/Works/YeolHyeolDataStructure/Chap03/NameCard.h">
+			<Option target="Chap03"/>
+		</Unit>
+		<Unit filename="D:/Works/YeolHyeolDataStructure/Chap03/NameCardListMain.c">
+			<Option target="Chap03"/>
+		</Unit>
+		<Unit filename="D:/Works/YeolHyeolDataStructure/Chap03/Point.c">
+			<Option target="Chap03"/>
+		</Unit>
+		<Unit filename="D:/Works/YeolHyeolDataStructure/Chap03/Point.h">
+			<Option target="Chap03"/>
+		</Unit>
+		<Unit filename="D:/Works/YeolHyeolDataStructure/Chap03/PointListMain.c">
+			<Option target="Chap03"/>
+		</Unit>
 		<Unit filename="D:/Works/YeolHyeolDataStructure/Chap03/Prob03-1.c">
 			<Option target="Chap03"/>
 		</Unit>

@@ -152,6 +152,102 @@ ArrayList.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Chap03.dir\build.make CMakeFiles/Chap03.dir/ArrayList.c.s
 .PHONY : ArrayList.c.s
 
+NameCard.obj: NameCard.c.obj
+.PHONY : NameCard.obj
+
+# target to build an object file
+NameCard.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Chap03.dir\build.make CMakeFiles/Chap03.dir/NameCard.c.obj
+.PHONY : NameCard.c.obj
+
+NameCard.i: NameCard.c.i
+.PHONY : NameCard.i
+
+# target to preprocess a source file
+NameCard.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Chap03.dir\build.make CMakeFiles/Chap03.dir/NameCard.c.i
+.PHONY : NameCard.c.i
+
+NameCard.s: NameCard.c.s
+.PHONY : NameCard.s
+
+# target to generate assembly for a file
+NameCard.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Chap03.dir\build.make CMakeFiles/Chap03.dir/NameCard.c.s
+.PHONY : NameCard.c.s
+
+NameCardListMain.obj: NameCardListMain.c.obj
+.PHONY : NameCardListMain.obj
+
+# target to build an object file
+NameCardListMain.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Chap03.dir\build.make CMakeFiles/Chap03.dir/NameCardListMain.c.obj
+.PHONY : NameCardListMain.c.obj
+
+NameCardListMain.i: NameCardListMain.c.i
+.PHONY : NameCardListMain.i
+
+# target to preprocess a source file
+NameCardListMain.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Chap03.dir\build.make CMakeFiles/Chap03.dir/NameCardListMain.c.i
+.PHONY : NameCardListMain.c.i
+
+NameCardListMain.s: NameCardListMain.c.s
+.PHONY : NameCardListMain.s
+
+# target to generate assembly for a file
+NameCardListMain.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Chap03.dir\build.make CMakeFiles/Chap03.dir/NameCardListMain.c.s
+.PHONY : NameCardListMain.c.s
+
+Point.obj: Point.c.obj
+.PHONY : Point.obj
+
+# target to build an object file
+Point.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Chap03.dir\build.make CMakeFiles/Chap03.dir/Point.c.obj
+.PHONY : Point.c.obj
+
+Point.i: Point.c.i
+.PHONY : Point.i
+
+# target to preprocess a source file
+Point.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Chap03.dir\build.make CMakeFiles/Chap03.dir/Point.c.i
+.PHONY : Point.c.i
+
+Point.s: Point.c.s
+.PHONY : Point.s
+
+# target to generate assembly for a file
+Point.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Chap03.dir\build.make CMakeFiles/Chap03.dir/Point.c.s
+.PHONY : Point.c.s
+
+PointListMain.obj: PointListMain.c.obj
+.PHONY : PointListMain.obj
+
+# target to build an object file
+PointListMain.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Chap03.dir\build.make CMakeFiles/Chap03.dir/PointListMain.c.obj
+.PHONY : PointListMain.c.obj
+
+PointListMain.i: PointListMain.c.i
+.PHONY : PointListMain.i
+
+# target to preprocess a source file
+PointListMain.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Chap03.dir\build.make CMakeFiles/Chap03.dir/PointListMain.c.i
+.PHONY : PointListMain.c.i
+
+PointListMain.s: PointListMain.c.s
+.PHONY : PointListMain.s
+
+# target to generate assembly for a file
+PointListMain.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Chap03.dir\build.make CMakeFiles/Chap03.dir/PointListMain.c.s
+.PHONY : PointListMain.c.s
+
 Prob03-1.obj: Prob03-1.c.obj
 .PHONY : Prob03-1.obj
 
@@ -212,6 +308,18 @@ help:
 	@echo ... ArrayList.obj
 	@echo ... ArrayList.i
 	@echo ... ArrayList.s
+	@echo ... NameCard.obj
+	@echo ... NameCard.i
+	@echo ... NameCard.s
+	@echo ... NameCardListMain.obj
+	@echo ... NameCardListMain.i
+	@echo ... NameCardListMain.s
+	@echo ... Point.obj
+	@echo ... Point.i
+	@echo ... Point.s
+	@echo ... PointListMain.obj
+	@echo ... PointListMain.i
+	@echo ... PointListMain.s
 	@echo ... Prob03-1.obj
 	@echo ... Prob03-1.i
 	@echo ... Prob03-1.s
