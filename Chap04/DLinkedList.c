@@ -11,6 +11,7 @@ void ListInit(List *plist)
 }
 
 // header에 없음, 즉 리스트 사용자가 임의로 호출할수 없는 함수
+// 정렬기준 없을시 삽입
 void FInsert(List *plist, LData data)
 {
     Node *newNode = (Node*)malloc(sizeof(Node));
@@ -23,9 +24,25 @@ void FInsert(List *plist, LData data)
     (plist->numOfData)++;
 }
 
+// 정렬기준 있을시 삽입
 void SInsert(List *plist, LData data)
 {
+    // 새 노드 생성
+    Node *newNode = (Node*)malloc(sizeof(Node));
+    // pred는 더미 노드 가르킴
+    Node *pred = plist->head;
+    newNode->data = data;
 
+    // pred가 마지막 노드를 가르키지 않고 && comp 함수가 0을 리턴하지 않는다면
+    // (새 노드가 들어갈 자리 찾지못했다면) pred를 다음노드로 이동 시킨다
+    while(pred->next != NULL && plist->comp(data, pred->next->data) != 0)
+    {
+        pred = pred->next;
+    }
+
+    newNode->next = pred->next; // 새 노드의 오른쪽을 연결
+    pred->next = newNode; // 새 노드의 왼쪽을 연결
+    (plist->numOfData)++;
 }
 
 void LInsert(List *plist, LData data)
@@ -89,3 +106,8 @@ int LCount(List *plist)
     return plist->numOfData;
 }
 
+// 정렬 기준, 두번째 파라미터는 함수 포인터를 전달
+void SetSortRule(List *plist, int (*comp)(LData d1, LData d2))
+{
+    plist->comp = comp;
+}

@@ -4,6 +4,7 @@
 #define TRUE 1
 #define FALSE 0
 
+//typedef int LData;
 typedef Point * LData;
 
 typedef struct _node
@@ -18,7 +19,7 @@ typedef struct _linkedList
     Node *cur;
     Node *before;
     int numOfData;
-    int (*comp)(LData d1, LData d2);
+    int (*comp)(LData d1, LData d2); // 함수 포인터
 } LinkedList;
 
 typedef LinkedList List;
