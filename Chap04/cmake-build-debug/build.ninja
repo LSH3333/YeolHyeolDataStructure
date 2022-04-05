@@ -78,6 +78,12 @@ build CMakeFiles/Chap04.dir/Prob4-1.c.o: C_COMPILER__Chap04_Debug /Users/lsh/Git
   OBJECT_DIR = CMakeFiles/Chap04.dir
   OBJECT_FILE_DIR = CMakeFiles/Chap04.dir
 
+build CMakeFiles/Chap04.dir/Prob4-2.c.o: C_COMPILER__Chap04_Debug /Users/lsh/Git/YeolHyeolDataStructure/Chap04/Prob4-2.c || cmake_object_order_depends_target_Chap04
+  DEP_FILE = CMakeFiles/Chap04.dir/Prob4-2.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk
+  OBJECT_DIR = CMakeFiles/Chap04.dir
+  OBJECT_FILE_DIR = CMakeFiles/Chap04.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target Chap04
@@ -86,7 +92,7 @@ build CMakeFiles/Chap04.dir/Prob4-1.c.o: C_COMPILER__Chap04_Debug /Users/lsh/Git
 #############################################
 # Link the executable Chap04
 
-build Chap04: C_EXECUTABLE_LINKER__Chap04_Debug CMakeFiles/Chap04.dir/Prob4-1.c.o
+build Chap04: C_EXECUTABLE_LINKER__Chap04_Debug CMakeFiles/Chap04.dir/Prob4-1.c.o CMakeFiles/Chap04.dir/Prob4-2.c.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk
   OBJECT_DIR = CMakeFiles/Chap04.dir
   POST_BUILD = :
