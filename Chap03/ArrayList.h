@@ -7,7 +7,9 @@
 #define FALSE	0
 
 #define LIST_LEN	100
+
 // LData에 대한 typedef 선언
+// LData의 자료형을 바꿔가면서 사용할수 있도록
 typedef NameCard * LData;
 
 typedef struct __ArrayList
