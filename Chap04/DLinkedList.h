@@ -1,3 +1,6 @@
+/*
+ * 동적할당 기반 연결 리스트
+ */
 #ifndef __D_LINKED_LIST_H__
 #define __D_LINKED_LIST_H__
 #include "Point.h"
