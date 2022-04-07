@@ -3,4 +3,4 @@ project(Chap05 C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(Chap05 main.c CLinkedList.c CLinkedList.h)
+add_executable(Chap05 CLinkedList.c CLinkedList.h CLinkedMain.c)

@@ -72,14 +72,14 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 
 build cmake_object_order_depends_target_Chap05: phony || CMakeFiles/Chap05.dir
 
-build CMakeFiles/Chap05.dir/main.c.o: C_COMPILER__Chap05_Debug /Users/lsh/Git/YeolHyeolDataStructure/Chap05/main.c || cmake_object_order_depends_target_Chap05
-  DEP_FILE = CMakeFiles/Chap05.dir/main.c.o.d
+build CMakeFiles/Chap05.dir/CLinkedList.c.o: C_COMPILER__Chap05_Debug /Users/lsh/Git/YeolHyeolDataStructure/Chap05/CLinkedList.c || cmake_object_order_depends_target_Chap05
+  DEP_FILE = CMakeFiles/Chap05.dir/CLinkedList.c.o.d
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -std=gnu99
   OBJECT_DIR = CMakeFiles/Chap05.dir
   OBJECT_FILE_DIR = CMakeFiles/Chap05.dir
 
-build CMakeFiles/Chap05.dir/CLinkedList.c.o: C_COMPILER__Chap05_Debug /Users/lsh/Git/YeolHyeolDataStructure/Chap05/CLinkedList.c || cmake_object_order_depends_target_Chap05
-  DEP_FILE = CMakeFiles/Chap05.dir/CLinkedList.c.o.d
+build CMakeFiles/Chap05.dir/CLinkedMain.c.o: C_COMPILER__Chap05_Debug /Users/lsh/Git/YeolHyeolDataStructure/Chap05/CLinkedMain.c || cmake_object_order_depends_target_Chap05
+  DEP_FILE = CMakeFiles/Chap05.dir/CLinkedMain.c.o.d
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -std=gnu99
   OBJECT_DIR = CMakeFiles/Chap05.dir
   OBJECT_FILE_DIR = CMakeFiles/Chap05.dir
@@ -92,7 +92,7 @@ build CMakeFiles/Chap05.dir/CLinkedList.c.o: C_COMPILER__Chap05_Debug /Users/lsh
 #############################################
 # Link the executable Chap05
 
-build Chap05: C_EXECUTABLE_LINKER__Chap05_Debug CMakeFiles/Chap05.dir/main.c.o CMakeFiles/Chap05.dir/CLinkedList.c.o
+build Chap05: C_EXECUTABLE_LINKER__Chap05_Debug CMakeFiles/Chap05.dir/CLinkedList.c.o CMakeFiles/Chap05.dir/CLinkedMain.c.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk
   OBJECT_DIR = CMakeFiles/Chap05.dir
   POST_BUILD = :
