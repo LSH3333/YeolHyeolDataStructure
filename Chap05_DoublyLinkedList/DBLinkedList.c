@@ -13,7 +13,7 @@ void LInsert(List *plist, Data data)
     Node *newNode = (Node*)malloc(sizeof(Node));
     newNode->data = data;
 
-    // 새로운 노드는 헤드를 가르키도록
+    // 새로운 노드는 헤드가 가르키는 노드를 가르키도록
     newNode->next = plist->head;
     // 삽입하는 노드가 첫 노드가 아니라면
     if(plist->head != NULL)
