@@ -1,0 +1,5 @@
+# ninja log v5
+0	50	1649397420591443952	build.ninja	5d342510e7486c2e
+0	69	1649397420665988656	CMakeFiles/Chap06_ArrayBaseStack.dir/ArrayBaseStackMain.c.o	8bd6fad2ff368c44
+0	70	1649397420666712364	CMakeFiles/Chap06_ArrayBaseStack.dir/ArrayBaseStack.c.o	aa00cb78ecb8ba19
+70	108	1649397420706158089	Chap06_ArrayBaseStack	5ff9cc42265c1f54
