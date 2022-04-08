@@ -1,0 +1,6 @@
+# ninja log v5
+0	49	1649402273511967817	build.ninja	b3c3db89b402cd93
+0	109	1649402273626547002	CMakeFiles/CLinkedListBaseStack.dir/CLinkedListBaseStackMain.c.o	3f521a6e22d7a192
+0	109	1649402273626782378	CMakeFiles/CLinkedListBaseStack.dir/CLinkedListBaseStack.c.o	92e4aa6328a39d32
+0	110	1649402273627788965	CMakeFiles/CLinkedListBaseStack.dir/CLinkedList.c.o	7112bf69c40682d6
+110	146	1649402273665053745	CLinkedListBaseStack	474a5584e3ec444
