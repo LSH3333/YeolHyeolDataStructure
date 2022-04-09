@@ -1,0 +1,6 @@
+# ninja log v5
+1	47	1649491890850842232	build.ninja	1fab1f702dd8770c
+0	112	1649491890968586609	CMakeFiles/Calculator.dir/InfixToPostfixMain.c.o	6343f66c77372b69
+0	112	1649491890968941823	CMakeFiles/Calculator.dir/ListBaseStack.c.o	fb7442b4ecaf655e
+0	112	1649491890969423664	CMakeFiles/Calculator.dir/InfixToPostfix.c.o	2238f2c4c99735fe
+112	149	1649491891006339794	Calculator	4e4a5c43e1bee2bf
