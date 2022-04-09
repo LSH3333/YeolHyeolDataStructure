@@ -90,6 +90,18 @@ build CMakeFiles/Calculator.dir/InfixToPostfix.c.o: C_COMPILER__Calculator_Debug
   OBJECT_DIR = CMakeFiles/Calculator.dir
   OBJECT_FILE_DIR = CMakeFiles/Calculator.dir
 
+build CMakeFiles/Calculator.dir/PostCalculator.c.o: C_COMPILER__Calculator_Debug /Users/lsh/Git/YeolHyeolDataStructure/Calculator/PostCalculator.c || cmake_object_order_depends_target_Calculator
+  DEP_FILE = CMakeFiles/Calculator.dir/PostCalculator.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -std=gnu99
+  OBJECT_DIR = CMakeFiles/Calculator.dir
+  OBJECT_FILE_DIR = CMakeFiles/Calculator.dir
+
+build CMakeFiles/Calculator.dir/InfixCalculatorMain.c.o: C_COMPILER__Calculator_Debug /Users/lsh/Git/YeolHyeolDataStructure/Calculator/InfixCalculatorMain.c || cmake_object_order_depends_target_Calculator
+  DEP_FILE = CMakeFiles/Calculator.dir/InfixCalculatorMain.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -std=gnu99
+  OBJECT_DIR = CMakeFiles/Calculator.dir
+  OBJECT_FILE_DIR = CMakeFiles/Calculator.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target Calculator
@@ -98,7 +110,7 @@ build CMakeFiles/Calculator.dir/InfixToPostfix.c.o: C_COMPILER__Calculator_Debug
 #############################################
 # Link the executable Calculator
 
-build Calculator: C_EXECUTABLE_LINKER__Calculator_Debug CMakeFiles/Calculator.dir/InfixToPostfixMain.c.o CMakeFiles/Calculator.dir/ListBaseStack.c.o CMakeFiles/Calculator.dir/InfixToPostfix.c.o
+build Calculator: C_EXECUTABLE_LINKER__Calculator_Debug CMakeFiles/Calculator.dir/InfixToPostfixMain.c.o CMakeFiles/Calculator.dir/ListBaseStack.c.o CMakeFiles/Calculator.dir/InfixToPostfix.c.o CMakeFiles/Calculator.dir/PostCalculator.c.o CMakeFiles/Calculator.dir/InfixCalculatorMain.c.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk
   OBJECT_DIR = CMakeFiles/Calculator.dir
   POST_BUILD = :
