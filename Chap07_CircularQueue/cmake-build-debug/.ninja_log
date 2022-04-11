@@ -1,0 +1,5 @@
+# ninja log v5
+1	50	1649660692566113734	build.ninja	fc6fd3a1c4b5cd8
+0	63	1649658890246431356	CMakeFiles/Chap07.dir/CircularQueue.c.o	89e32346abe1b88b
+0	63	1649658890246084064	CMakeFiles/Chap07.dir/CircularQueueMain.c.o	cb5a6bd20a9333c5
+63	102	1649658890285724211	Chap07	50875049ebf80168
