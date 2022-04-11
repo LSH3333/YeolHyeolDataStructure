@@ -17,7 +17,7 @@ int EvalRPNExp(char *exp)
 
         if(isdigit(tok))
         {
-            SPush(&stack, tok);
+            SPush(&stack, tok-'0');
         }
         else
         {

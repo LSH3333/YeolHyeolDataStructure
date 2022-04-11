@@ -1,6 +1,13 @@
 # ninja log v5
-1	47	1649493412770831733	build.ninja	1fab1f702dd8770c
 0	112	1649491890968941823	CMakeFiles/Calculator.dir/ListBaseStack.c.o	fb7442b4ecaf655e
-0	112	1649491890968586609	CMakeFiles/Calculator.dir/InfixToPostfixMain.c.o	6343f66c77372b69
+0	15	1649655053514588927	CMakeFiles/Calculator.dir/InfixToPostfixMain.c.o	6343f66c77372b69
 0	112	1649491890969423664	CMakeFiles/Calculator.dir/InfixToPostfix.c.o	2238f2c4c99735fe
-112	149	1649491891006339794	Calculator	4e4a5c43e1bee2bf
+2	114	1649655045555187785	CMakeFiles/Calculator.dir/InfixCalculatorMain.c.o	aeb0249746d64e7f
+1	123	1649655147029013491	CMakeFiles/Calculator.dir/PostCalculator.c.o	b0cac376b8fd4033
+1	47	1649655366452232005	build.ninja	1fab1f702dd8770c
+123	160	1649655147066283230	Calculator	38ae808ca6bfedfc
+1	25	1649655083884524125	CMakeFiles/Calculator.dir/PostCalculatorMain.c.o	bd99dda555517f6c
+2	101	1649655748192379126	CMakeFiles/Calculator.dir/PostCalculatorMain.c.o	bd99dda555517f6c
+1	118	1649655748210214454	CMakeFiles/Calculator.dir/InfixCalculatorMain.c.o	aeb0249746d64e7f
+2	118	1649655748210214787	CMakeFiles/Calculator.dir/InfixCalculator.c.o	2d535a7916e70861
+118	156	1649655748248780941	Calculator	3074625ba869ebfb

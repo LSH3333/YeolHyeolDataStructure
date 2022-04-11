@@ -102,6 +102,18 @@ build CMakeFiles/Calculator.dir/InfixCalculatorMain.c.o: C_COMPILER__Calculator_
   OBJECT_DIR = CMakeFiles/Calculator.dir
   OBJECT_FILE_DIR = CMakeFiles/Calculator.dir
 
+build CMakeFiles/Calculator.dir/PostCalculatorMain.c.o: C_COMPILER__Calculator_Debug /Users/lsh/Git/YeolHyeolDataStructure/Calculator/PostCalculatorMain.c || cmake_object_order_depends_target_Calculator
+  DEP_FILE = CMakeFiles/Calculator.dir/PostCalculatorMain.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -std=gnu99
+  OBJECT_DIR = CMakeFiles/Calculator.dir
+  OBJECT_FILE_DIR = CMakeFiles/Calculator.dir
+
+build CMakeFiles/Calculator.dir/InfixCalculator.c.o: C_COMPILER__Calculator_Debug /Users/lsh/Git/YeolHyeolDataStructure/Calculator/InfixCalculator.c || cmake_object_order_depends_target_Calculator
+  DEP_FILE = CMakeFiles/Calculator.dir/InfixCalculator.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -std=gnu99
+  OBJECT_DIR = CMakeFiles/Calculator.dir
+  OBJECT_FILE_DIR = CMakeFiles/Calculator.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target Calculator
@@ -110,7 +122,7 @@ build CMakeFiles/Calculator.dir/InfixCalculatorMain.c.o: C_COMPILER__Calculator_
 #############################################
 # Link the executable Calculator
 
-build Calculator: C_EXECUTABLE_LINKER__Calculator_Debug CMakeFiles/Calculator.dir/InfixToPostfixMain.c.o CMakeFiles/Calculator.dir/ListBaseStack.c.o CMakeFiles/Calculator.dir/InfixToPostfix.c.o CMakeFiles/Calculator.dir/PostCalculator.c.o CMakeFiles/Calculator.dir/InfixCalculatorMain.c.o
+build Calculator: C_EXECUTABLE_LINKER__Calculator_Debug CMakeFiles/Calculator.dir/InfixToPostfixMain.c.o CMakeFiles/Calculator.dir/ListBaseStack.c.o CMakeFiles/Calculator.dir/InfixToPostfix.c.o CMakeFiles/Calculator.dir/PostCalculator.c.o CMakeFiles/Calculator.dir/InfixCalculatorMain.c.o CMakeFiles/Calculator.dir/PostCalculatorMain.c.o CMakeFiles/Calculator.dir/InfixCalculator.c.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk
   OBJECT_DIR = CMakeFiles/Calculator.dir
   POST_BUILD = :
