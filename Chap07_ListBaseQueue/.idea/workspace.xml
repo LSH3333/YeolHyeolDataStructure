@@ -12,8 +12,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc509ba0-fd74-4130-82c3-15feff82130f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../Chap07_HamburgerSimulation/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Chap07_HamburgerSimulation/HamburgerSim.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Deque/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Deque/Deque.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Deque/Deque.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Deque/DequeMain.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -72,7 +74,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1649660717438</updated>
-      <workItem from="1649660718715" duration="2176000" />
+      <workItem from="1649660718715" duration="2793000" />
     </task>
     <servers />
   </component>
