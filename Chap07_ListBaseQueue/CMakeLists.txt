@@ -3,4 +3,4 @@ project(Chap07_ListBaseQueue C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(Chap07_ListBaseQueue main.c)
+add_executable(Chap07_ListBaseQueue ListBaseQueueMain.c ListBaseQueue.c ListBaseQueue.h)

@@ -12,15 +12,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc509ba0-fd74-4130-82c3-15feff82130f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../Chap07_CircularQueue/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Chap07_CircularQueue/.idea/Chap07.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Chap07_CircularQueue/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Chap07_CircularQueue/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Chap07_CircularQueue/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Chap07_CircularQueue/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Chap07_CircularQueue/CircularQueue.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Chap07_CircularQueue/CircularQueue.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Chap07_CircularQueue/CircularQueueMain.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ListBaseQueue.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ListBaseQueue.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-7debb56889d9ab240074.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-1bc43fdbf38bad3a4a68.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/index-2022-04-11T07-05-18-0718.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-Chap07_ListBaseQueue-Debug-6d96fba0d74e58c0164b.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/build.ninja" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/ListBaseQueueMain.c" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +36,9 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectApplicationVersion">
     <option name="ide" value="CLion" />
@@ -49,6 +55,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="cf.first.check.clang-format" value="false" />
     <property name="cidr.known.project.marker" value="true" />
@@ -74,11 +81,22 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1649660717438</updated>
-      <workItem from="1649660718715" duration="1000" />
+      <workItem from="1649660718715" duration="1164000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
