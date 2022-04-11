@@ -1,0 +1,5 @@
+# ninja log v5
+0	44	1649663319549493090	build.ninja	db1f0dc5c1062a36
+0	109	1649663319664851587	CMakeFiles/Chap07_HamburgerSimulation.dir/CircularQueue.c.o	6428e39b2c2de605
+0	110	1649663319664351056	CMakeFiles/Chap07_HamburgerSimulation.dir/HamburgerSim.c.o	8c9dc6d177ef581
+110	146	1649663319701464458	Chap07_HamburgerSimulation	8e6d6a2a13367902
