@@ -48,5 +48,5 @@ void HInsert(Heap *ph, HData data, Priority pr)
 {
     int idx = ph->numOfData+1;
     HeapElem nelem = {pr, data};
-    
+
 }
