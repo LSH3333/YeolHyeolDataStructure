@@ -1,9 +1,6 @@
-/*
- * 이진 트리 순회 함수 포함하는 연결 리스트 기반 이진트리 구현
- */
 
-#ifndef CHAP08_BINARYTREETRAVERSAL_BINARYTREETRAVERSAL_H
-#define CHAP08_BINARYTREETRAVERSAL_BINARYTREETRAVERSAL_H
+#ifndef CHAP08_EXPTREE_BINARYTREETRAVERSAL_H
+#define CHAP08_EXPTREE_BINARYTREETRAVERSAL_H
 
 typedef int BTData;
 
@@ -34,5 +31,4 @@ void PostorderTraverse(BTreeNode *bt, VisitFuncPtr action);
 
 // 순회하며 메모리 해제
 void DeleteTree(BTreeNode *bt);
-
-#endif //CHAP08_BINARYTREETRAVERSAL_BINARYTREETRAVERSAL_H
+#endif //CHAP08_EXPTREE_BINARYTREETRAVERSAL_H
