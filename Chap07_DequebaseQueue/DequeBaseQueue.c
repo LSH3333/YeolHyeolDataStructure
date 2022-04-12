@@ -1,6 +1,6 @@
 #include "DequeBaseQueue.h"
 #include <stdlib.h>
-#include <stdio.h
+#include <stdio.h>
 
 void QueueInit(Queue *pq)
 {
