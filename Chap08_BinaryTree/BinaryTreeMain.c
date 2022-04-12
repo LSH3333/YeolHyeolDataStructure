@@ -1,6 +1,15 @@
 #include <stdio.h>
 #include "BinaryTree.h"
 
+void InorderTraversal(BTreeNode *bt)
+{
+    if(bt == NULL) return;
+
+    InorderTraversal(bt->left);
+    printf("%d \n", bt->data);
+    InorderTraversal(bt->right);
+}
+
 int main()
 {
     BTreeNode *bt1 = MakeBTreeNode();

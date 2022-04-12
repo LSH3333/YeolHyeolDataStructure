@@ -2,10 +2,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "Chap08_BinaryTree.exe"
-		},
-		{
-			"path" : "Chap08_BinaryTree.pdb"
+			"path" : "Chap08_BinaryTreeTraversal"
 		}
 	],
 	"backtrace" : 1,
@@ -38,7 +35,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "-g"
+					"fragment" : "-g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk"
 				},
 				{
 					"fragment" : "-std=gnu99"
@@ -56,11 +53,11 @@
 			"sourceIndexes" : 
 			[
 				0,
-				2
+				1
 			]
 		}
 	],
-	"id" : "Chap08_BinaryTree::@6890427a1f51a3e7e1df",
+	"id" : "Chap08_BinaryTreeTraversal::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -72,16 +69,12 @@
 			{
 				"fragment" : "",
 				"role" : "flags"
-			},
-			{
-				"fragment" : "-lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32",
-				"role" : "libraries"
 			}
 		],
 		"language" : "C"
 	},
-	"name" : "Chap08_BinaryTree",
-	"nameOnDisk" : "Chap08_BinaryTree.exe",
+	"name" : "Chap08_BinaryTreeTraversal",
+	"nameOnDisk" : "Chap08_BinaryTreeTraversal",
 	"paths" : 
 	{
 		"build" : ".",
@@ -94,14 +87,14 @@
 			"sourceIndexes" : 
 			[
 				0,
-				2
+				1
 			]
 		},
 		{
 			"name" : "Header Files",
 			"sourceIndexes" : 
 			[
-				1
+				2
 			]
 		}
 	],
@@ -110,19 +103,19 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "BinaryTree.c",
+			"path" : "BinaryTreeTraversalMain.c",
 			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 1,
-			"path" : "BinaryTree.h",
-			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "BinaryTreeMain.c",
+			"path" : "BinaryTreeTraversal.c",
 			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "BinaryTreeTraversal.h",
+			"sourceGroupIndex" : 1
 		}
 	],
 	"type" : "EXECUTABLE"
