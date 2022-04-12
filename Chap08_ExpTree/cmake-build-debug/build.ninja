@@ -72,8 +72,8 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 
 build cmake_object_order_depends_target_Chap08_ExpTree: phony || CMakeFiles/Chap08_ExpTree.dir
 
-build CMakeFiles/Chap08_ExpTree.dir/main.c.o: C_COMPILER__Chap08_ExpTree_Debug /Users/lsh/Git/YeolHyeolDataStructure/Chap08_ExpTree/main.c || cmake_object_order_depends_target_Chap08_ExpTree
-  DEP_FILE = CMakeFiles/Chap08_ExpTree.dir/main.c.o.d
+build CMakeFiles/Chap08_ExpTree.dir/ExpressionTreeMain.c.o: C_COMPILER__Chap08_ExpTree_Debug /Users/lsh/Git/YeolHyeolDataStructure/Chap08_ExpTree/ExpressionTreeMain.c || cmake_object_order_depends_target_Chap08_ExpTree
+  DEP_FILE = CMakeFiles/Chap08_ExpTree.dir/ExpressionTreeMain.c.o.d
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -std=gnu99
   OBJECT_DIR = CMakeFiles/Chap08_ExpTree.dir
   OBJECT_FILE_DIR = CMakeFiles/Chap08_ExpTree.dir
@@ -104,7 +104,7 @@ build CMakeFiles/Chap08_ExpTree.dir/ExpressionTree.c.o: C_COMPILER__Chap08_ExpTr
 #############################################
 # Link the executable Chap08_ExpTree
 
-build Chap08_ExpTree: C_EXECUTABLE_LINKER__Chap08_ExpTree_Debug CMakeFiles/Chap08_ExpTree.dir/main.c.o CMakeFiles/Chap08_ExpTree.dir/BinaryTreeTraversal.c.o CMakeFiles/Chap08_ExpTree.dir/ListBaseStack.c.o CMakeFiles/Chap08_ExpTree.dir/ExpressionTree.c.o
+build Chap08_ExpTree: C_EXECUTABLE_LINKER__Chap08_ExpTree_Debug CMakeFiles/Chap08_ExpTree.dir/ExpressionTreeMain.c.o CMakeFiles/Chap08_ExpTree.dir/BinaryTreeTraversal.c.o CMakeFiles/Chap08_ExpTree.dir/ListBaseStack.c.o CMakeFiles/Chap08_ExpTree.dir/ExpressionTree.c.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk
   OBJECT_DIR = CMakeFiles/Chap08_ExpTree.dir
   POST_BUILD = :

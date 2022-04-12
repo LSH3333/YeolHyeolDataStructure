@@ -5,10 +5,11 @@
 #ifndef CHAP06_LISTBASESTACK_LISTBASESTACK_H
 #define CHAP06_LISTBASESTACK_LISTBASESTACK_H
 
+#include "BinaryTreeTraversal.h"
 #define TRUE 1
 #define FALSE 0
 
-typedef int Data;
+typedef BTreeNode * Data;
 
 typedef struct _node
 {
