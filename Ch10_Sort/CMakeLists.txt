@@ -3,4 +3,4 @@ project(Ch10_Sort C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(Ch10_Sort BubbleSort.c SelectionSort.c)
+add_executable(Ch10_Sort BubbleSort.c SelectionSort.c InsertionSort.c UsefulHeap.h UsefulHeap.c HeapSort.c MergeSort.c)

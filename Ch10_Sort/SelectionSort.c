@@ -28,12 +28,12 @@ void SelSort(int arr[], int n)
     }
 }
 
-int main()
-{
-    int arr[4] = {3, 4, 2, 1};
-
-    SelSort(arr, sizeof(arr)/sizeof(int));
-
-    for(int i = 0; i < 4; i++)
-        printf("%d ", arr[i]);
-}
+//int main()
+//{
+//    int arr[4] = {3, 4, 2, 1};
+//
+//    SelSort(arr, sizeof(arr)/sizeof(int));
+//
+//    for(int i = 0; i < 4; i++)
+//        printf("%d ", arr[i]);
+//}

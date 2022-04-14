@@ -1,4 +1,4 @@
-/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/Applications/CLion.app/Contents/bin/ninja/mac/ninja -G Ninja /Users/lsh/Git/YeolHyeolDataStructure/Ch10_Sort
+"D:\Program Files\JetBrains\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" D:\Works\YeolHyeolDataStructure\Ch10_Sort
 -- Configuring done
 -- Generating done
--- Build files have been written to: /Users/lsh/Git/YeolHyeolDataStructure/Ch10_Sort/cmake-build-debug
+-- Build files have been written to: D:/Works/YeolHyeolDataStructure/Ch10_Sort/cmake-build-debug
