@@ -1,0 +1,1 @@
+/Library/Developer/CommandLineTools/usr/bin/cc -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/Chap09_SimpleHeap.dir/SimpleHeapMain.c.o CMakeFiles/Chap09_SimpleHeap.dir/SimpleHeap.c.o -o Chap09_SimpleHeap 

@@ -2,10 +2,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "Chap09_SimpleHeap.exe"
-		},
-		{
-			"path" : "Chap09_SimpleHeap.pdb"
+			"path" : "Chap09_SimpleHeap"
 		}
 	],
 	"backtrace" : 1,
@@ -38,7 +35,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "-g"
+					"fragment" : "-g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk"
 				},
 				{
 					"fragment" : "-std=gnu99"
@@ -72,16 +69,12 @@
 			{
 				"fragment" : "",
 				"role" : "flags"
-			},
-			{
-				"fragment" : "-lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32",
-				"role" : "libraries"
 			}
 		],
 		"language" : "C"
 	},
 	"name" : "Chap09_SimpleHeap",
-	"nameOnDisk" : "Chap09_SimpleHeap.exe",
+	"nameOnDisk" : "Chap09_SimpleHeap",
 	"paths" : 
 	{
 		"build" : ".",
@@ -110,7 +103,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "main.c",
+			"path" : "SimpleHeapMain.c",
 			"sourceGroupIndex" : 0
 		},
 		{
