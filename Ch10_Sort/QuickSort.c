@@ -17,6 +17,8 @@ int Partition(int arr[], int left, int right)
     int low = left+1;
     int high = right;
 
+    printf("pivot: %d \n", pivot);
+
     while(low <= high) // low와 high가 교차되지 않을때까지 반복
     {
         // 피벗보다 큰 값 찾음
@@ -41,13 +43,13 @@ void QuickSort(int arr[], int left, int right)
         QuickSort(arr, pivot+1, right);
     }
 }
-
-int main()
-{
-    int arr[3] = {3,3,3};
-//    int arr[7] = {3,2,4,1,7,6,5};
-    int len = sizeof(arr) / sizeof(int);
-    QuickSort(arr, 0, sizeof(arr)/sizeof(int)-1);
-    for(int i = 0; i < len; i++)
-        printf("%d ", arr[i]);
-}
+//
+//int main()
+//{
+//
+//    int arr[15] = {1,2,3,4,5,6,7,8,9,10,11,12,13,14,15};
+//    int len = sizeof(arr) / sizeof(int);
+//    QuickSort(arr, 0, sizeof(arr)/sizeof(int)-1);
+//    for(int i = 0; i < len; i++)
+//        printf("%d ", arr[i]);
+//}
