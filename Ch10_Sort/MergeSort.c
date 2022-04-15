@@ -65,10 +65,10 @@ void MergeSort(int arr[], int left, int right)
     }
 }
 
-int main()
-{
-    int arr[7] = {3,2,4,1,7,6,5};
-    MergeSort(arr, 0, sizeof(arr)/sizeof(int)-1);
-    for(int i = 0; i < 7; i++)
-        printf("%d ", arr[i]);
-}
+//int main()
+//{
+//    int arr[7] = {3,2,4,1,7,6,5};
+//    MergeSort(arr, 0, sizeof(arr)/sizeof(int)-1);
+//    for(int i = 0; i < 7; i++)
+//        printf("%d ", arr[i]);
+//}
