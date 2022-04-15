@@ -88,6 +88,12 @@
 		<Unit filename="D:/Works/YeolHyeolDataStructure/Ch10_Sort/MergeSort.c">
 			<Option target="Ch10_Sort"/>
 		</Unit>
+		<Unit filename="D:/Works/YeolHyeolDataStructure/Ch10_Sort/Prob10-1_FixedQuickSort.c">
+			<Option target="Ch10_Sort"/>
+		</Unit>
+		<Unit filename="D:/Works/YeolHyeolDataStructure/Ch10_Sort/QuickSort.c">
+			<Option target="Ch10_Sort"/>
+		</Unit>
 		<Unit filename="D:/Works/YeolHyeolDataStructure/Ch10_Sort/SelectionSort.c">
 			<Option target="Ch10_Sort"/>
 		</Unit>
