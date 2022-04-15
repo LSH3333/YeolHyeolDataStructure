@@ -2,10 +2,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "Ch10_Sort.exe"
-		},
-		{
-			"path" : "Ch10_Sort.pdb"
+			"path" : "Ch10_Sort"
 		}
 	],
 	"backtrace" : 1,
@@ -38,7 +35,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "-g"
+					"fragment" : "-g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk"
 				},
 				{
 					"fragment" : "-std=gnu99"
@@ -76,16 +73,12 @@
 			{
 				"fragment" : "",
 				"role" : "flags"
-			},
-			{
-				"fragment" : "-lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32",
-				"role" : "libraries"
 			}
 		],
 		"language" : "C"
 	},
 	"name" : "Ch10_Sort",
-	"nameOnDisk" : "Ch10_Sort.exe",
+	"nameOnDisk" : "Ch10_Sort",
 	"paths" : 
 	{
 		"build" : ".",
