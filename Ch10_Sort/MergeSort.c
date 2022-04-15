@@ -1,9 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
-
 /*
  * 병합 정렬 (Merge Sort)
  */
+
+// arr의 left부터 mid까지의 영역, mid+1부터 right까지의 영역의 데이터를 비교해가며 정렬한다
 void MergeTwoArea(int arr[], int left, int mid, int right)
 {
     // 두 영역 중 첫 영역의 시작 부분
@@ -21,7 +22,7 @@ void MergeTwoArea(int arr[], int left, int mid, int right)
     while(fidx <= mid && ridx <= right)
     {
         // 첫 영역의 데이터가 더 작다면 sortArr에 저장 후 fidx 1 증가
-        if(arr[fidx] <= arr[right])
+        if(arr[fidx] <= arr[ridx])
             sortArr[sIdx] = arr[fidx++];
         else
             sortArr[sIdx] = arr[ridx++];
@@ -32,7 +33,7 @@ void MergeTwoArea(int arr[], int left, int mid, int right)
     // 남아있는 영역의 데이터를 sortArr에 옮김
     if(fidx > mid)
     {
-        for(i = right; i <= right; i++, sIdx++)
+        for(i = ridx; i <= right; i++, sIdx++)
             sortArr[sIdx] = arr[i];
     }
     else
@@ -55,11 +56,19 @@ void MergeSort(int arr[], int left, int right)
     {
         mid = (left + right) / 2;
 
-        // 둘로 나눠 각각 정렬
+        // 둘로 분할한다
         MergeSort(arr, left, mid);
         MergeSort(arr, mid+1, right);
 
-        // 정렬된 두 배열 병합
+        // 분할된 데이터를 병합하며 정렬한다
         MergeTwoArea(arr, left, mid, right);
     }
+}
+
+int main()
+{
+    int arr[7] = {3,2,4,1,7,6,5};
+    MergeSort(arr, 0, sizeof(arr)/sizeof(int)-1);
+    for(int i = 0; i < 7; i++)
+        printf("%d ", arr[i]);
 }

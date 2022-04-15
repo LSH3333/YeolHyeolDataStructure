@@ -23,11 +23,11 @@ void InsertSort(int arr[], int n)
         arr[j+1] = insData;
     }
 }
-
-int main()
-{
-    int arr[5] = {5,3,2,4,1};
-    InsertSort(arr, sizeof(arr)/sizeof(int));
-    for(int i = 0; i < 5; i++)
-        printf("%d ", arr[i]);
-}
+//
+//int main()
+//{
+//    int arr[5] = {5,3,2,4,1};
+//    InsertSort(arr, sizeof(arr)/sizeof(int));
+//    for(int i = 0; i < 5; i++)
+//        printf("%d ", arr[i]);
+//}
