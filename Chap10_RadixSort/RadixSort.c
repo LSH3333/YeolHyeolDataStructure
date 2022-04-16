@@ -7,7 +7,8 @@
 void RadixSort(int arr[], int num, int maxLen)
 {
     Queue buckets[BUCKET_NUM];
-    int pos, di, divfac=1, radix;
+    int pos, bi, di, divfac=1, radix;
+    // 큐 초기화
     for(int i = 0; i < BUCKET_NUM; i++)
         QueueInit(&buckets[i]);
 
@@ -25,7 +26,25 @@ void RadixSort(int arr[], int num, int maxLen)
         }
 
         // 버킷 수만큼 반복
+        for(bi = 0, di = 0; bi < BUCKET_NUM; bi++)
+        {
+            // 버킷에 저장된 순서대로 꺼내 다시 arr에 저장
+            while(!QIsEmpty(&buckets[bi]))
+                arr[di++] = Dequeue(&buckets[bi]);
+        }
 
+        // N번째 자리의 숫자 추출 위해 피제수 증가
+        divfac *= 10;
     }
 }
 
+int main()
+{
+    int arr[7] = {13, 212, 14, 7141, 10987, 6, 15};
+    int len = sizeof(arr) / sizeof(int);
+
+    RadixSort(arr, len, 5);
+
+    for(int i = 0; i < len; i++)
+        printf("%d ", arr[i]);
+}
