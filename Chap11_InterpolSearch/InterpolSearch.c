@@ -2,7 +2,7 @@
 
 int InterpolSearch(int ar[], int first, int last, int target)
 {
-    if(first > last) return -1;
+    if(ar[first] > target || ar[last] < target) return -1;
 
     int targetIdx = ((double)(target-ar[first]) / (ar[last]-ar[first]) * (last-first)) + first;
 
@@ -17,7 +17,7 @@ int InterpolSearch(int ar[], int first, int last, int target)
 int main()
 {
     int arr[] = {1, 3, 5, 7, 9};
-    int idx = InterpolSearch(arr, 0, 4, 7);
+    int idx = InterpolSearch(arr, 0, 4, 2);
     if(idx == -1)
         printf("search failed\n");
     else
