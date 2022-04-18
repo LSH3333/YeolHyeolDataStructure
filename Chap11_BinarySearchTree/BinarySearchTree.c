@@ -40,7 +40,7 @@ void BSTInsert(BTreeNode **pRoot, BSTData data)
     // pNode의 자식노드로서 삽입
     if(pNode != NULL) // 새 노드가 루트 노드 아니라면
     {
-        if(data < GetData(data))
+        if(data < GetData(pNode))
             MakeLeftSubTree(pNode, nNode);
         else
             MakeRightSubTree(pNode, nNode);
