@@ -61,8 +61,7 @@
 				4,
 				5,
 				6,
-				7,
-				8
+				7
 			]
 		}
 	],
@@ -105,8 +104,7 @@
 				4,
 				5,
 				6,
-				7,
-				8
+				7
 			]
 		},
 		{
@@ -164,12 +162,6 @@
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
 			"path" : "QuickSort.c",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 1,
-			"compileGroupIndex" : 0,
-			"path" : "Prob10-1_FixedQuickSort.c",
 			"sourceGroupIndex" : 0
 		}
 	],

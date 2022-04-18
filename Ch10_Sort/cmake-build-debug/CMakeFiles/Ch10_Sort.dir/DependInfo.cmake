@@ -12,7 +12,6 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "D:/Works/YeolHyeolDataStructure/Ch10_Sort/HeapSort.c" "CMakeFiles/Ch10_Sort.dir/HeapSort.c.obj" "gcc" "CMakeFiles/Ch10_Sort.dir/HeapSort.c.obj.d"
   "D:/Works/YeolHyeolDataStructure/Ch10_Sort/InsertionSort.c" "CMakeFiles/Ch10_Sort.dir/InsertionSort.c.obj" "gcc" "CMakeFiles/Ch10_Sort.dir/InsertionSort.c.obj.d"
   "D:/Works/YeolHyeolDataStructure/Ch10_Sort/MergeSort.c" "CMakeFiles/Ch10_Sort.dir/MergeSort.c.obj" "gcc" "CMakeFiles/Ch10_Sort.dir/MergeSort.c.obj.d"
-  "D:/Works/YeolHyeolDataStructure/Ch10_Sort/Prob10-1_FixedQuickSort.c" "CMakeFiles/Ch10_Sort.dir/Prob10-1_FixedQuickSort.c.obj" "gcc" "CMakeFiles/Ch10_Sort.dir/Prob10-1_FixedQuickSort.c.obj.d"
   "D:/Works/YeolHyeolDataStructure/Ch10_Sort/QuickSort.c" "CMakeFiles/Ch10_Sort.dir/QuickSort.c.obj" "gcc" "CMakeFiles/Ch10_Sort.dir/QuickSort.c.obj.d"
   "D:/Works/YeolHyeolDataStructure/Ch10_Sort/SelectionSort.c" "CMakeFiles/Ch10_Sort.dir/SelectionSort.c.obj" "gcc" "CMakeFiles/Ch10_Sort.dir/SelectionSort.c.obj.d"
   "D:/Works/YeolHyeolDataStructure/Ch10_Sort/UsefulHeap.c" "CMakeFiles/Ch10_Sort.dir/UsefulHeap.c.obj" "gcc" "CMakeFiles/Ch10_Sort.dir/UsefulHeap.c.obj.d"

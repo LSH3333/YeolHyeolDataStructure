@@ -80,12 +80,12 @@ clean: CMakeFiles/Ch10_Sort.dir/clean
 CMakeFiles/Ch10_Sort.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ch10_Sort.dir\build.make CMakeFiles/Ch10_Sort.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ch10_Sort.dir\build.make CMakeFiles/Ch10_Sort.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\Works\YeolHyeolDataStructure\Ch10_Sort\cmake-build-debug\CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9 "Built target Ch10_Sort"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\Works\YeolHyeolDataStructure\Ch10_Sort\cmake-build-debug\CMakeFiles --progress-num=1,2,3,4,5,6,7,8 "Built target Ch10_Sort"
 .PHONY : CMakeFiles/Ch10_Sort.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Ch10_Sort.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\Works\YeolHyeolDataStructure\Ch10_Sort\cmake-build-debug\CMakeFiles 9
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Works\YeolHyeolDataStructure\Ch10_Sort\cmake-build-debug\CMakeFiles 8
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/Ch10_Sort.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start D:\Works\YeolHyeolDataStructure\Ch10_Sort\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/Ch10_Sort.dir/rule

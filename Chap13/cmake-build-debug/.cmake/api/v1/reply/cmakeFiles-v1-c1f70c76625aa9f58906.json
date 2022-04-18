@@ -7,11 +7,6 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "D:/Program Files/JetBrains/CLion 2021.2.2/bin/cmake/win/share/cmake-3.21/Modules/CMakeMinGWFindMake.cmake"
-		},
-		{
-			"isCMake" : true,
-			"isExternal" : true,
 			"path" : "D:/Program Files/JetBrains/CLion 2021.2.2/bin/cmake/win/share/cmake-3.21/Modules/CMakeDetermineSystem.cmake"
 		},
 		{
@@ -295,21 +290,6 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "D:/Program Files/JetBrains/CLion 2021.2.2/bin/cmake/win/share/cmake-3.21/Modules/CMakeFindCodeBlocks.cmake"
-		},
-		{
-			"isCMake" : true,
-			"isExternal" : true,
-			"path" : "D:/Program Files/JetBrains/CLion 2021.2.2/bin/cmake/win/share/cmake-3.21/Modules/CMakeExtraGeneratorDetermineCompilerMacrosAndIncludeDirs.cmake"
-		},
-		{
-			"isCMake" : true,
-			"isExternal" : true,
-			"path" : "D:/Program Files/JetBrains/CLion 2021.2.2/bin/cmake/win/share/cmake-3.21/Modules/ProcessorCount.cmake"
-		},
-		{
-			"isCMake" : true,
-			"isExternal" : true,
 			"path" : "D:/Program Files/JetBrains/CLion 2021.2.2/bin/cmake/win/share/cmake-3.21/Modules/CMakeCInformation.cmake"
 		},
 		{
@@ -444,8 +424,8 @@
 	"kind" : "cmakeFiles",
 	"paths" : 
 	{
-		"build" : "D:/Works/YeolHyeolDataStructure/Ch10_Sort/cmake-build-debug",
-		"source" : "D:/Works/YeolHyeolDataStructure/Ch10_Sort"
+		"build" : "D:/Works/YeolHyeolDataStructure/Chap13/cmake-build-debug",
+		"source" : "D:/Works/YeolHyeolDataStructure/Chap13"
 	},
 	"version" : 
 	{

@@ -7,8 +7,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/Ch10_Sort.dir/InsertionSort.c.obj.d"
   "CMakeFiles/Ch10_Sort.dir/MergeSort.c.obj"
   "CMakeFiles/Ch10_Sort.dir/MergeSort.c.obj.d"
-  "CMakeFiles/Ch10_Sort.dir/Prob10-1_FixedQuickSort.c.obj"
-  "CMakeFiles/Ch10_Sort.dir/Prob10-1_FixedQuickSort.c.obj.d"
   "CMakeFiles/Ch10_Sort.dir/QuickSort.c.obj"
   "CMakeFiles/Ch10_Sort.dir/QuickSort.c.obj.d"
   "CMakeFiles/Ch10_Sort.dir/SelectionSort.c.obj"

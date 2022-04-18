@@ -224,30 +224,6 @@ MergeSort.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ch10_Sort.dir\build.make CMakeFiles/Ch10_Sort.dir/MergeSort.c.s
 .PHONY : MergeSort.c.s
 
-Prob10-1_FixedQuickSort.obj: Prob10-1_FixedQuickSort.c.obj
-.PHONY : Prob10-1_FixedQuickSort.obj
-
-# target to build an object file
-Prob10-1_FixedQuickSort.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ch10_Sort.dir\build.make CMakeFiles/Ch10_Sort.dir/Prob10-1_FixedQuickSort.c.obj
-.PHONY : Prob10-1_FixedQuickSort.c.obj
-
-Prob10-1_FixedQuickSort.i: Prob10-1_FixedQuickSort.c.i
-.PHONY : Prob10-1_FixedQuickSort.i
-
-# target to preprocess a source file
-Prob10-1_FixedQuickSort.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ch10_Sort.dir\build.make CMakeFiles/Ch10_Sort.dir/Prob10-1_FixedQuickSort.c.i
-.PHONY : Prob10-1_FixedQuickSort.c.i
-
-Prob10-1_FixedQuickSort.s: Prob10-1_FixedQuickSort.c.s
-.PHONY : Prob10-1_FixedQuickSort.s
-
-# target to generate assembly for a file
-Prob10-1_FixedQuickSort.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ch10_Sort.dir\build.make CMakeFiles/Ch10_Sort.dir/Prob10-1_FixedQuickSort.c.s
-.PHONY : Prob10-1_FixedQuickSort.c.s
-
 QuickSort.obj: QuickSort.c.obj
 .PHONY : QuickSort.obj
 
@@ -341,9 +317,6 @@ help:
 	@echo ... MergeSort.obj
 	@echo ... MergeSort.i
 	@echo ... MergeSort.s
-	@echo ... Prob10-1_FixedQuickSort.obj
-	@echo ... Prob10-1_FixedQuickSort.i
-	@echo ... Prob10-1_FixedQuickSort.s
 	@echo ... QuickSort.obj
 	@echo ... QuickSort.i
 	@echo ... QuickSort.s
