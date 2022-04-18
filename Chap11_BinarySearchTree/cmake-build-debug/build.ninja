@@ -90,6 +90,12 @@ build CMakeFiles/Chap11_BinarySearchTree.dir/BinarySearchTree.c.o: C_COMPILER__C
   OBJECT_DIR = CMakeFiles/Chap11_BinarySearchTree.dir
   OBJECT_FILE_DIR = CMakeFiles/Chap11_BinarySearchTree.dir
 
+build CMakeFiles/Chap11_BinarySearchTree.dir/BinarySearchTreeMain.c.o: C_COMPILER__Chap11_BinarySearchTree_Debug /Users/lsh/Git/YeolHyeolDataStructure/Chap11_BinarySearchTree/BinarySearchTreeMain.c || cmake_object_order_depends_target_Chap11_BinarySearchTree
+  DEP_FILE = CMakeFiles/Chap11_BinarySearchTree.dir/BinarySearchTreeMain.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -std=gnu99
+  OBJECT_DIR = CMakeFiles/Chap11_BinarySearchTree.dir
+  OBJECT_FILE_DIR = CMakeFiles/Chap11_BinarySearchTree.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target Chap11_BinarySearchTree
@@ -98,7 +104,7 @@ build CMakeFiles/Chap11_BinarySearchTree.dir/BinarySearchTree.c.o: C_COMPILER__C
 #############################################
 # Link the executable Chap11_BinarySearchTree
 
-build Chap11_BinarySearchTree: C_EXECUTABLE_LINKER__Chap11_BinarySearchTree_Debug CMakeFiles/Chap11_BinarySearchTree.dir/main.c.o CMakeFiles/Chap11_BinarySearchTree.dir/BinaryTreeTraversal.c.o CMakeFiles/Chap11_BinarySearchTree.dir/BinarySearchTree.c.o
+build Chap11_BinarySearchTree: C_EXECUTABLE_LINKER__Chap11_BinarySearchTree_Debug CMakeFiles/Chap11_BinarySearchTree.dir/main.c.o CMakeFiles/Chap11_BinarySearchTree.dir/BinaryTreeTraversal.c.o CMakeFiles/Chap11_BinarySearchTree.dir/BinarySearchTree.c.o CMakeFiles/Chap11_BinarySearchTree.dir/BinarySearchTreeMain.c.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk
   OBJECT_DIR = CMakeFiles/Chap11_BinarySearchTree.dir
   POST_BUILD = :

@@ -35,4 +35,12 @@ void PostorderTraverse(BTreeNode *bt, VisitFuncPtr action);
 // 순회하며 메모리 해제
 void DeleteTree(BTreeNode *bt);
 
+// 이진 탐색 트리를 위한 함수들
+// 왼쪽 자식 노드를 트리에서 제거, 제거된 노드 주소값 반환
+BTreeNode *RemoveLeftSubTree(BTreeNode *bt);
+BTreeNode *RemoveRightSubTree(BTreeNode *bt);
+// 메모리 소멸을 수반하지 않고 main의 왼쪽 자식 노드를 sub 노드로 변경
+void ChangeLeftSubTree(BTreeNode *main, BTreeNode *sub);
+void ChangeRightSubTree(BTreeNode *main, BTreeNode *sub);
+
 #endif //CHAP08_BINARYTREETRAVERSAL_BINARYTREETRAVERSAL_H
