@@ -1,15 +1,6 @@
 # ninja log v5
-0	55	1650268370650618075	build.ninja	73f97a91b19ba3b0
-0	83	1650268370739569342	CMakeFiles/Chap11_BinarySearchTree.dir/BinarySearchTreeMain.c.o	3c07a58b5e5f8372
-0	83	1650268370740616150	CMakeFiles/Chap11_BinarySearchTree.dir/BinaryTreeTraversal.c.o	4c804a2459e4ab0b
-0	84	1650268370741770377	CMakeFiles/Chap11_BinarySearchTree.dir/BinarySearchTree.c.o	fd2562c13f4568ec
-84	143	1650268370800486573	Chap11_BinarySearchTree	ec7f51c5d80ce638
-0	29	1650268394697368194	CMakeFiles/Chap11_BinarySearchTree.dir/BinarySearchTreeMain.c.o	3c07a58b5e5f8372
-29	68	1650268394736107693	Chap11_BinarySearchTree	ec7f51c5d80ce638
-0	22	1650268416425782382	CMakeFiles/Chap11_BinarySearchTree.dir/BinarySearchTreeMain.c.o	3c07a58b5e5f8372
-22	50	1650268416454418635	Chap11_BinarySearchTree	ec7f51c5d80ce638
-1	24	1650268592266750331	CMakeFiles/Chap11_BinarySearchTree.dir/BinarySearchTreeMain.c.o	3c07a58b5e5f8372
+0	55	1650340422309035077	build.ninja	73f97a91b19ba3b0
 1	25	1650268592268376649	CMakeFiles/Chap11_BinarySearchTree.dir/BinarySearchTree.c.o	fd2562c13f4568ec
-25	56	1650268592299893698	Chap11_BinarySearchTree	ec7f51c5d80ce638
-0	31	1650268676741659000	CMakeFiles/Chap11_BinarySearchTree.dir/BinarySearchTreeMain.c.o	3c07a58b5e5f8372
 31	62	1650268676773366178	Chap11_BinarySearchTree	ec7f51c5d80ce638
+0	31	1650268676741659000	CMakeFiles/Chap11_BinarySearchTree.dir/BinarySearchTreeMain.c.o	3c07a58b5e5f8372
+0	83	1650268370740616150	CMakeFiles/Chap11_BinarySearchTree.dir/BinaryTreeTraversal.c.o	4c804a2459e4ab0b
