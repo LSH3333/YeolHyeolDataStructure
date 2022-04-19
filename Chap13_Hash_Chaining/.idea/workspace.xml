@@ -12,16 +12,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7ae5c760-2aa9-4a4e-8f93-8ea55c16e961" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../Chap14_ALGraph/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Chap14_ALGraph/.idea/Chap14_ALGraph.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Chap14_ALGraph/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Chap14_ALGraph/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Chap14_ALGraph/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Chap14_ALGraph/ALGraph.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Chap14_ALGraph/ALGraph.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Chap14_ALGraph/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Chap14_ALGraph/main.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-0e26d73e4d3245abf50d.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-cb8242d0779c5b07dd9f.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/index-2022-04-19T05-43-16-0312.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-Chap13_Hash_Chaining-Debug-b7be62a1034428054897.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/build.ninja" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/ChangedTableMain.c" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +53,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="cf.first.check.clang-format" value="false" />
     <property name="cidr.known.project.marker" value="true" />
@@ -78,7 +79,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1650346993423</updated>
-      <workItem from="1650346994714" duration="1855000" />
+      <workItem from="1650346994714" duration="4092000" />
     </task>
     <servers />
   </component>
