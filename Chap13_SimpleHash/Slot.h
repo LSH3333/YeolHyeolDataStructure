@@ -20,3 +20,4 @@ typedef struct _slot
 } Slot;
 
 #endif //CHAP13_SIMPLEHASH_SLOT_H
+
