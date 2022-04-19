@@ -12,15 +12,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7ae5c760-2aa9-4a4e-8f93-8ea55c16e961" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../Chap14_ALGraph/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Chap14_ALGraph/.idea/Chap14_ALGraph.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Chap14_ALGraph/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Chap14_ALGraph/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Chap14_ALGraph/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Chap14_ALGraph/ALGraph.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Chap14_ALGraph/ALGraph.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Chap14_ALGraph/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Chap14_ALGraph/main.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -79,7 +70,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1650346993423</updated>
-      <workItem from="1650346994714" duration="4092000" />
+      <workItem from="1650346994714" duration="4195000" />
     </task>
     <servers />
   </component>
